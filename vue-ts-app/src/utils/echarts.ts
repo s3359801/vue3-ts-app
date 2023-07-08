@@ -1,7 +1,8 @@
 import * as echarts from 'echarts/core';
 import {
     BarChart,
-    LineChart
+    LineChart,
+    ScatterChart
 } from 'echarts/charts';
 import {
     TitleComponent,
@@ -49,6 +50,7 @@ echarts.use([
     TransformComponent,
     BarChart,
     LineChart,
+    ScatterChart,
     LabelLayout,
     UniversalTransition,
     CanvasRenderer

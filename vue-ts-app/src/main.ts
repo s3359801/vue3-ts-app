@@ -5,7 +5,7 @@ import { createApp, provide } from 'vue'
 import ViewPlus from 'view-ui-plus'
 import 'view-ui-plus/dist/styles/viewuiplus.css'
 import App from './App.vue'
-import echarts from './utils/echarts'
+import * as echarts from 'echarts';
 
 
 

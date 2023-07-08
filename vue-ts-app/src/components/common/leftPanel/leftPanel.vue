@@ -15,6 +15,7 @@
   overflow-y: auto;
   color: #fff;
   height: 100vh;
+  max-height: 100vh;
 }
 .left-panel-title {
   font-size: 20px;
